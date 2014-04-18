@@ -1,15 +1,14 @@
 {
-  "name": "connect-session-file",
-  "version": "1.0.4",
-  "description": "File Session Store for Connect Middleware",
-  "author": "Alexander Veenendaal <alex@opendoorgonorth.com> (http://github.com/odogono/)",
+  "name": "express-session-file",
+  "version": "1.0.0",
+  "description": "File Session Store for Express Middleware",
+  "author": "Greg Brown <grgbrn@gmail.com> (http://github.com/grgbrn/)",
   "contributors": [
     "Alexander Veenendaal <alex@opendoorgonorth.com> (http://github.com/odogono/)",
     "André König <> (https://github.com/akoenig)",
     "m0ppers <> (https://github.com/m0ppers)",
     "Aaron Jackson <aaron@aaronsplace.co.uk> (https://github.com/Limes102)"
   ],
-  "bugs": { "web" : "http://github.com/odogono/connect-session-file/issues" },
   "engines": {
     "node" : ">=0.8.11"
   },
@@ -18,10 +17,10 @@
   },
   "main": "./lib/connect-session-file",
   "dependencies": {
-    "connect": ">=2.7.3"
+    "express-session": ">=1.0.2"
   },
   "repository": {
     "type":"git",
-    "url":"http://github.com/odogono/connect-session-file.git"
+    "url":"http://github.com/grgbrn/express-session-file.git"
   }
 }
