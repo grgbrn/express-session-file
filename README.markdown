@@ -1,5 +1,7 @@
-# connect-session-file
+# express-session-file
 
+Simple file session store for use with Express 4
+and express-session (https://github.com/expressjs/session)
 
 ## Installation
 
@@ -17,25 +19,11 @@
 
 See example/app.js
 
-With express:
+    var FileSessionStore = require('express-session-file');
 
-    var FileStore = require('connect-session-file');
-
-    app.use(express.session({
-        secret: settings.cookie_secret,
+    app.use(session({
         store: new FileSessionStore({
-          db: settings.db
+          path:"/tmp/express-sessions",
+          printDebug:true
         })
-      }));
-
-
-## Tests
-
-
-
-
-## See Also
-
-https://github.com/kcbanner/connect-mongo
-
-https://github.com/bartt/connect-session-mongo
+    }));

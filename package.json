@@ -19,6 +19,10 @@
   "dependencies": {
     "express-session": ">=1.0.2"
   },
+  "devDependencies": {
+    "express": ">=4.0.0",
+    "cookie-parser": "*"
+  },
   "repository": {
     "type":"git",
     "url":"http://github.com/grgbrn/express-session-file.git"
